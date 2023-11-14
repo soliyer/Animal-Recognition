@@ -32,3 +32,11 @@ pip install -r requirements.txt
 ```bash
 python gui.py
 ```
+
+### Generate the Model
+
+Model is alreaedy generated, but you can generate it by running this code
+```bash
+python model_creator.py
+```
+
