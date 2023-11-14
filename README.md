@@ -25,3 +25,10 @@ Run the following command to install the necessary Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Run the Project
+
+```bash
+python gui.py
+```
