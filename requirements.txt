@@ -1,0 +1,5 @@
+### `requirements.txt`
+
+tensorflow>=2.0
+Pillow>=8.0
+numpy>=1.18
