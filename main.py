@@ -8,7 +8,7 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', '
 
 
 def get_prediction(image_path):
-    model = load_trained_model('animal_recognition_model.h5')
+    model = load_trained_model('animal_recognition_model.keras')
     processed_image = load_and_prepare_image(image_path)
     predicted_index = make_prediction(model, processed_image)
     return class_names[predicted_index]
